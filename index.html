@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pangasinan's Memory, Myth, and Identity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="navbar">
+      <a href="#home" class="brand">Pangasinan's Memory</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#curatorial">Curatorial</a>
+        <a href="#about">About</a>
+      </div>
+    </nav>
+
+    <section class="hero section">
+      <div class="hero-copy fade-in">
+        <p class="eyebrow">Virtual Exhibit</p>
+        <h1>Pangasinan's Memory, Myth, and Identity</h1>
+        <p class="hero-text">
+          This virtual exhibit explores how history, folklore, and everyday life shape the cultural identity of Pangasinan across time.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#gallery">Explore the Gallery</a>
+          <a class="button secondary" href="#curatorial">Read the Curatorial Note</a>
+        </div>
+      </div>
+      <div class="hero-panel fade-in">
+        <div class="hero-card">
+          <p class="hero-card-label">Exhibit Focus</p>
+          <ul>
+            <li>Subject, content, and context</li>
+            <li>Historical memory and folklore</li>
+            <li>Identity through art and community</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="overview section fade-in">
+      <div class="section-heading">
+        <p class="eyebrow">Introduction</p>
+        <h2>Art as memory, witness, and myth</h2>
+      </div>
+      <div class="overview-grid">
+        <article class="info-card">
+          <h3>Subject</h3>
+          <p>The exhibit highlights portraits, legends, artifacts, labor, and river folklore rooted in Pangasinan.</p>
+        </article>
+        <article class="info-card">
+          <h3>Content</h3>
+          <p>Each artwork reveals pride, empowerment, status, resilience, or mystery within local cultural life.</p>
+        </article>
+        <article class="info-card">
+          <h3>Context</h3>
+          <p>The works connect pre-colonial memory, modern art history, traditional labor, and regional storytelling.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-heading fade-in">
+        <p class="eyebrow">Gallery</p>
+        <h2>Interactive artwork collection</h2>
+        <p>Click any artwork card to view its subject, content, context, and interpretation.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <article class="art-card fade-in" data-artwork="edades" tabindex="0">
+          <div class="art-image-frame">
+            <img src="images/portrait-of-victorio-edades.jpg" alt="Portrait of Victorio Edades" class="art-image">
+            <div class="image-placeholder" aria-hidden="true">Image Placeholder</div>
+          </div>
+          <div class="art-card-content">
+            <p class="art-kicker">Featured Work</p>
+            <h3>Portrait of Victorio Edades</h3>
+            <p class="artist">Danilo Santiago</p>
+          </div>
+        </article>
+
+        <article class="art-card fade-in" data-artwork="urduja" tabindex="0">
+          <div class="art-image-frame">
+            <img src="images/princess-urduja.jpg" alt="Princess Urduja" class="art-image">
+            <div class="image-placeholder" aria-hidden="true">Image Placeholder</div>
+          </div>
+          <div class="art-card-content">
+            <p class="art-kicker">Folklore</p>
+            <h3>Princess Urduja</h3>
+            <p class="artist">Margaret Estelle Blas</p>
+          </div>
+        </article>
+
+        <article class="art-card fade-in" data-artwork="bolinao" tabindex="0">
+          <div class="art-image-frame">
+            <img src="images/bolinao-skull.jpg" alt="Bolinao Skull" class="art-image">
+            <div class="image-placeholder" aria-hidden="true">Image Placeholder</div>
+          </div>
+          <div class="art-card-content">
+            <p class="art-kicker">Archaeology</p>
+            <h3>Bolinao Skull</h3>
+            <p class="artist">Unknown</p>
+          </div>
+        </article>
+
+        <article class="art-card fade-in" data-artwork="kalukor" tabindex="0">
+          <div class="art-image-frame">
+            <img src="images/kalukor.jpg" alt="Kalukor" class="art-image">
+            <div class="image-placeholder" aria-hidden="true">Image Placeholder</div>
+          </div>
+          <div class="art-card-content">
+            <p class="art-kicker">Community Life</p>
+            <h3>Kalukor</h3>
+            <p class="artist">Mark Delos Santos</p>
+          </div>
+        </article>
+
+        <article class="art-card fade-in" data-artwork="mermaid" tabindex="0">
+          <div class="art-image-frame">
+            <img src="images/the-mermaid-of-san-juan-river.jpg" alt="The Mermaid of San Juan River" class="art-image">
+            <div class="image-placeholder" aria-hidden="true">Image Placeholder</div>
+          </div>
+          <div class="art-card-content">
+            <p class="art-kicker">Legend</p>
+            <h3>The Mermaid of San Juan River</h3>
+            <p class="artist">Prince Logan</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="curatorial section" id="curatorial">
+      <div class="section-heading fade-in">
+        <p class="eyebrow">Curatorial Note</p>
+        <h2>How memory and myth shape identity</h2>
+      </div>
+      <div class="curatorial-layout">
+        <article class="curatorial-copy fade-in">
+          <p>
+            Pangasinan's memory, myth, and identity is a curated exhibition that explores how history, folklore, and everyday life shape the cultural identity of Pangasinan across time.
+          </p>
+          <p>
+            The Bolinao Skull represents the deep historical foundations of Pangasinan society.
+          </p>
+          <p>
+            Princess Urduja symbolizes strength and leadership in pre-colonial society.
+          </p>
+          <p>
+            The Portrait of Victorio Edades highlights modern artistic transformation.
+          </p>
+          <p>
+            Kalukor reflects contemporary community life and cooperation.
+          </p>
+          <p>
+            Together, these works show how identity is preserved through memory, reinterpreted through art, and lived through community.
+          </p>
+        </article>
+        <aside class="curatorial-panel fade-in">
+          <h3>Exhibit Themes</h3>
+          <div class="theme-list">
+            <div>
+              <span>Memory</span>
+              <p>History survives through objects, portraits, and inherited stories.</p>
+            </div>
+            <div>
+              <span>Myth</span>
+              <p>Legends carry values of courage, wonder, and cultural imagination.</p>
+            </div>
+            <div>
+              <span>Identity</span>
+              <p>Everyday labor and artistic legacy keep Pangasinan's identity visible in the present.</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading fade-in">
+        <p class="eyebrow">About the Museum</p>
+        <h2>Banaan Pangasinan Provincial Museum (Casa Real)</h2>
+      </div>
+      <div class="about-grid">
+        <article class="about-card fade-in">
+          <h3>Historical Background</h3>
+          <p>Built in 1840, Casa Real served as a former capitol, school, and World War II headquarters before its restoration into a museum.</p>
+        </article>
+        <article class="about-card fade-in">
+          <h3>Architecture and Recognition</h3>
+          <p>The building preserves Spanish-era architecture and was declared a historical landmark in 2002.</p>
+        </article>
+        <article class="about-card fade-in">
+          <h3>Present Role</h3>
+          <p>Now home to 11 galleries, the museum safeguards the cultural memory of Pangasinan through exhibitions and public education.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="artModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-dialog">
+      <button class="modal-close" id="modalClose" aria-label="Close artwork details">&times;</button>
+
+      <div class="modal-media">
+        <div class="art-image-frame modal-image-frame">
+          <img src="images/placeholder.jpg" alt="Artwork detail" class="art-image" id="modalImage">
+          <div class="image-placeholder" aria-hidden="true">Image Placeholder</div>
+        </div>
+      </div>
+
+      <div class="modal-content">
+        <p class="eyebrow" id="modalArtist"></p>
+        <h2 id="modalTitle"></h2>
+        <p class="modal-meta" id="modalMeta"></p>
+
+        <div class="detail-block">
+          <h3>Subject</h3>
+          <p id="modalSubject"></p>
+        </div>
+
+        <div class="detail-block">
+          <h3>Content</h3>
+          <p id="modalContent"></p>
+        </div>
+
+        <div class="detail-block">
+          <h3>Context</h3>
+          <p id="modalContext"></p>
+        </div>
+
+        <div class="detail-block">
+          <h3>Interpretation</h3>
+          <p id="modalInterpretation"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
